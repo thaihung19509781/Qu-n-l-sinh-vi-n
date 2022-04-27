@@ -1,0 +1,159 @@
+
+.banner{
+    background-color: #f3fcf8;
+}
+/* Code animation */
+@keyframes example {
+    from {background-color: pink;}
+    to {background-color: #0c8b51;}
+  }
+  
+  /* Áp dụng animation vào phần tử */
+  .animation__img {
+    background-color:#e1f8ee;
+    border-radius: 50px;
+    margin: 0px 200px;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+.banner_container{
+    height: 500px;
+}
+.bg_text{
+    border-radius: 0px 500px 500px 0px;
+    background-color: #e1f8ee;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 100px 0px;
+}
+.bg_text button{
+    padding: 20px 40px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #0c8b51;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.banner_container:hover button{
+    background-color: #28a745;
+    cursor: pointer;
+}
+.student_item{
+    box-sizing: border-box;
+    padding: 40px 40px 20px 40px;
+    translate: var(tr);
+    
+}
+.student__item{
+    background-color: #F9F8F8;
+    background-image: url(https://keenitsolutions.com/products/wordpress/educavo/wp-content/uploads/2020/09/shape3.png);
+    border-radius: 5px 5px 5px 5px;
+    padding: 40px 40px 20px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0, 0.1);
+    transition: transform linear 0.1s;
+    will-change: transform;
+}
+.student__item:hover{
+    box-shadow: 0 1px 20px 0 rgba(0,0,0, 0.05);
+    transform: translateY(-10px);
+}
+/* ACTIVITY */
+
+.benefit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    background-color: #e1f8ee;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+}
+.events_title{
+    background-color: #28a745;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.list_events{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.list__item{
+    border: 1px #0c8b51 solid;
+    border-radius: 6px;
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.list__item i{
+    color: #0c8b51;
+}
+.list_img{
+    padding: 10px;
+}
+.img_box{
+    border-radius: 6px;
+    background-color: #f3fcf8;
+}
+.img_box{ 
+	height: auto; /** Chiều cao tự động **/ 
+	margin: 10px auto; /** Cách trên dưới 10px và nằm giữa **/ 
+	overflow: hidden; /** DÒNG BẮT BUỘC CÓ **/ 
+	position: relative;  /** Chiều rộng vùng chứa **/ } 
+	
+.img_box img { 
+	width: 100%; /** Hình ảnh rộng 100% so với vùng chứa **/ 
+	transition: all 1s; /** Tạo độ mượt **/ } 
+	
+.img_box:hover img { 
+	-webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+.list__item a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+.list__text{
+    display: flex;
+    flex-direction: column;
+}
+.name:hover a{
+    color: #0c8b51;
+}
+/* lý do */
+.title_box{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.text_box{
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.item_icon{
+    display: flex;
+
+}
+.text_item{
+    background-color: #f3fcf8;
+    padding: 20px;
+    margin-top: 20px;
+}
+.box__img {
+    padding: 80px;
+    background-color: #28a745;
+    border-radius: 20px;
+}
+

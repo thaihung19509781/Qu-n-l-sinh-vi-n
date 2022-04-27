@@ -1,0 +1,71 @@
+/* ACTIVITY */
+
+.benefit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    background-color: #e1f8ee;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+}
+.events_title{
+    background-color: #28a745;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.list_events{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.list__item{
+    border: 1px #0c8b51 solid;
+    border-radius: 6px;
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.list__item i{
+    color: #0c8b51;
+}
+.list_img{
+    padding: 10px;
+}
+.img_box{
+    border-radius: 6px;
+    background-color: #f3fcf8;
+}
+.img_box{ 
+	height: auto; /** Chiều cao tự động **/ 
+	margin: 10px auto; /** Cách trên dưới 10px và nằm giữa **/ 
+	overflow: hidden; /** DÒNG BẮT BUỘC CÓ **/ 
+	position: relative;  /** Chiều rộng vùng chứa **/ } 
+	
+.img_box img { 
+	width: 100%; /** Hình ảnh rộng 100% so với vùng chứa **/ 
+	transition: all 1s; /** Tạo độ mượt **/ } 
+	
+.img_box:hover img { 
+	-webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+.list__item a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+.list__text{
+    display: flex;
+    flex-direction: column;
+}
+.name:hover a{
+    color: #0c8b51;
+}
+.events{
+    background-color: #e1f8ee;
+}

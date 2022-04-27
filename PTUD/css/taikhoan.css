@@ -1,0 +1,16 @@
+.main{
+    height: 600px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-nav a{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form_DN{
+    border: 1px solid black;
+}
+.box_form{
+    margin: 0px 20px;
+}
